@@ -42,8 +42,8 @@ weatherForm.addEventListener('submit',(e)=>{
       console.log(ul.classList);
       loc.textContent = "Location: "+data.location;
       weather.textContent = "Weather: "+data.weather;
-      temperature.textContent = "Temperature: "+data.temperature;
-      feelslike.textContent = "Feels Like: "+data.feelslike;
+      temperature.textContent = "Temperature: "+data.temperature+" degree Celsius";
+      feelslike.textContent = "Feels Like: "+data.feelslike+" degree Celsius";
       humidity.textContent = "Humidity: "+data.humidity;
     }
   });
