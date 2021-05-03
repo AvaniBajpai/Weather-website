@@ -59,7 +59,7 @@ app.get('/weather',(req,res)=>{
 app.get('*',(req,res)=>{
   res.render('error',{
     title:'404',
-    errorMessage:'Page not found',
+    errorMessage:'Page not found!',
     name:'Avani'
   });
 });

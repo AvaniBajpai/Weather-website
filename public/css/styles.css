@@ -10,3 +10,7 @@ footer{
 .result{
   display: none;
 }
+header h1{
+  color: red;
+  font-size: 80px;
+}
