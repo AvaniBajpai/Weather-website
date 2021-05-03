@@ -1,0 +1,12 @@
+footer{
+  position: fixed;
+  border-top: 2px solid white;
+  bottom:50px;
+  font-size: 18px;
+}
+.mess{
+  font-size: 18px;
+}
+.result{
+  display: none;
+}
