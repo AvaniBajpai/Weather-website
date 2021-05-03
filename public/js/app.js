@@ -31,7 +31,7 @@ weatherForm.addEventListener('submit',(e)=>{
   }
   else{
   showMessage('Loading...',"green")
-  fetch(`http://localhost:3000/weather?address=${place}`).then((response)=>{
+  fetch(`/weather?address=${place}`).then((response)=>{
   response.json().then((data)=>{
     if(data.error){
       showMessage(data.error,"red");
